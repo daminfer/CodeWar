@@ -49,3 +49,14 @@ int *array_diff(const int *arr1, size_t n1, const int *arr2, size_t n2, size_t *
 
     return diffArr;
 }
+
+int main(){
+    // Initialisation:
+    const int tab1[] = {1, 2, 2, 2, 3};
+    const int tab2[] = {2};
+    size_t *z;
+
+    // Test:
+    array_diff(tab1, 5, tab2, 1, z);
+
+}
