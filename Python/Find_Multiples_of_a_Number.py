@@ -13,3 +13,5 @@ and 6 are the multiples of 2 up to 6.
 If you can, try writing it in only one line of code.
 """
 
+def find_multiples(integer, limit):
+    return list(range(integer, limit+1, integer))
